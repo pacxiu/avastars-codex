@@ -1,5 +1,4 @@
 import Layout from 'components/Layout';
-import Head from 'next/head';
 import { Box } from 'theme-ui';
 
 const Test = ({ message }: { message: string }) => {

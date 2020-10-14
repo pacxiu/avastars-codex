@@ -2,7 +2,7 @@ import { MongoClient } from 'mongodb';
 import { NextApiRequest, NextApiResponse } from 'next';
 import { WithDb } from 'types';
 
-const client = new MongoClient(process.env.MONGODB_URI, {
+const client = new MongoClient(process.env.MONGODB_URI as string, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
