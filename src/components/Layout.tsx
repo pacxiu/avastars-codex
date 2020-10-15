@@ -1,20 +1,34 @@
 import { Box } from 'theme-ui';
-
-// import Menu from 'components/Menu';
-// import Footer from 'components/Footer';
-
-import { pxToRem } from 'theme';
+import { CUSTOM_SIZES } from 'theme';
 import { WithChildren } from 'types';
+// import Footer from './Footer',
+import Menu from './Menu';
 
 const Layout = ({ children }: WithChildren) => (
   <>
-    {/* <Menu /> */}
-    <Box>Menu</Box>
-    <Box as="main" sx={{ pt: pxToRem(125) }}>
+    <Menu />
+    <Box
+      as="main"
+      sx={{
+        pt: CUSTOM_SIZES.menuHeight,
+        position: 'relative',
+        '&:after': {
+          position: 'absolute',
+          display: 'block',
+          content: "''",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: `url('/static/bg.png') no-repeat top center`,
+          backgroundAttachment: 'fixed',
+          opacity: 0.6,
+          zIndex: -1,
+        },
+      }}
+    >
       {children}
     </Box>
-    <Box>Footer</Box>
-    {/* <Footer /> */}
   </>
 );
 

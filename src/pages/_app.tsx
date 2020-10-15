@@ -5,6 +5,7 @@ import theme from 'theme';
 import { ThemeProvider } from 'theme-ui';
 import Head from 'next/head';
 import Web3Provider from 'providers/Web3Provider';
+import Layout from 'components/Layout';
 
 const globalStyles = `
   html,
@@ -15,14 +16,14 @@ const globalStyles = `
     width: 100%;
   }
 
+  html {
+    overflow-x: hidden;
+  }
+
   div#__next {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-  }
-
-  html {
-    overflow-x: hidden
   }
 `;
 
@@ -31,13 +32,15 @@ function App({ Component, pageProps }: AppProps) {
     <ThemeProvider {...{ theme }}>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Nunito+Sans:wght@400;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&display=swap"
           rel="stylesheet"
         />
       </Head>
       <Global styles={globalStyles} />
       <Web3Provider>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </Web3Provider>
     </ThemeProvider>
   );

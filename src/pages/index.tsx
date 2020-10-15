@@ -1,16 +1,21 @@
-import Layout from 'components/Layout';
-import { Box } from 'theme-ui';
-
-const Test = ({ message }: { message: string }) => {
-  return <>{message}</>;
-};
+import AppLink from 'components/AppLink';
+import { Box, Button, Container, Heading, Text } from 'theme-ui';
 
 export default function Home() {
   return (
-    <Layout>
-      <Box>
-        <Test message="hey" />
+    <Container>
+      <Box sx={{ textAlign: 'center' }} mt={5}>
+        <Heading mb={3}>Avastars Codex</Heading>
+        <Text mb={4}>
+          Made for{' '}
+          <AppLink href="https://gitcoin.co/hackathon/untitled-nft?">
+            Untitled NFT Hackathon
+          </AppLink>
+        </Text>
+        <AppLink href="/codex">
+          <Button>Explore</Button>
+        </AppLink>
       </Box>
-    </Layout>
+    </Container>
   );
 }

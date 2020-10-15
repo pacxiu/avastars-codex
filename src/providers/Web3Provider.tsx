@@ -48,13 +48,13 @@ const initWeb3 = async (setWeb3: any) => {
     web3 = new Web3(web3.currentProvider);
   } else {
     // connect to custom provider, like Infura if there is no wallet detected
-    // web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/6e1f905a019e4e24bc9b67e3ddec0273'));
     return;
   }
 
   setWeb3(web3);
 };
 
+// To DO, implement autoconnect from LocalStorage!
 const Web3Provider = ({ children }: { children: ReactNode }) => {
   const [web3, setWeb3] = useState<Web3 | undefined>(undefined);
   const [address, setAddress] = useState<string | undefined>(undefined);
