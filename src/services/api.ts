@@ -1,7 +1,7 @@
 import { makeRequest } from 'services/http';
 import { NextApiRequest } from 'next';
 import { ParsedUrlQuery } from 'querystring';
-import { AvastarType, Gender, Rarity } from 'server/models/AvastarCollection';
+import { AvastarType, GenderType, RarityType } from 'server/models/AvastarCollection';
 
 const getQueryParams = (queryParams: ParsedUrlQuery) => {
   let query = '';
@@ -22,13 +22,13 @@ const getQueryParams = (queryParams: ParsedUrlQuery) => {
 export const getReqBaseUrl = (req?: NextApiRequest) => (req ? `http://${req.headers.host}` : '');
 
 export interface GetAvastarsQueryParams {
-  gender?: Gender;
-  rarity?: Rarity;
+  gender?: GenderType;
+  rarity?: RarityType;
   series?: string;
 }
 
 export interface GetAvastarsResponse {
-  data: AvastarType[];
+  data: AvastarType[] | [];
   total: number;
 }
 
@@ -38,7 +38,25 @@ export const requestAvastars = (
 ): Promise<GetAvastarsResponse> => {
   const defaultQuery = {};
   const query = getQueryParams({ ...defaultQuery, ...queryParams });
-  console.log('query:', query);
+  console.log('query for avastars:', query);
 
   return makeRequest(`${getReqBaseUrl(req)}/api/getAvastars/?${query}`);
+};
+
+export interface GetAvastarQueryParams {
+  id: string;
+}
+
+export interface GetAvastarResponse {
+  data: AvastarType | null;
+}
+
+export const requestAvastar = (
+  queryParams?: GetAvastarQueryParams,
+  req?: NextApiRequest
+): Promise<GetAvastarResponse> => {
+  const defaultQuery = {};
+  const query = getQueryParams({ ...defaultQuery, ...queryParams });
+
+  return makeRequest(`${getReqBaseUrl(req)}/api/getAvastar/?${query}`);
 };

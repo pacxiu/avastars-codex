@@ -1,19 +1,21 @@
 import AvastarCard from 'components/AvastarCard';
+import AvastarDetailedView from 'components/AvastarDetailedView';
 import Loader from 'components/Loader';
+import Modal from 'components/Modal';
 import { useDebounce } from 'hooks/useDebounce';
 import { useEffect, useState } from 'react';
-import { AvastarType, Gender, Rarity } from 'server/models/AvastarCollection';
+import { AvastarType, GenderType, RarityType } from 'server/models/AvastarCollection';
 import { GetAvastarsQueryParams, requestAvastars } from 'services/api';
 import { CUSTOM_SIZES } from 'theme';
 import { Box, Checkbox, Container, Flex, Heading, Label, Text } from 'theme-ui';
 
-const GENDER_OPTIONS: { value: Gender | undefined; label: string }[] = [
+const GENDER_OPTIONS: { value: GenderType | undefined; label: string }[] = [
   { value: undefined, label: 'Any' },
   { value: 'male', label: 'Male' },
   { value: 'female', label: 'Female' },
 ];
 
-const RARITY_OPTIONS: { value: Rarity | undefined; label: string }[] = [
+const RARITY_OPTIONS: { value: RarityType | undefined; label: string }[] = [
   { value: undefined, label: 'Any' },
   { value: 'common', label: 'Common' },
   { value: 'uncommon', label: 'Uncommon' },
@@ -88,15 +90,20 @@ const Filters = ({ filters: { gender, rarity, series }, updateFilters }: any) =>
   );
 };
 
+const Pagination = () => {
+  return <Flex sx={{ alignItems: 'center', justifyContent: 'center' }}>Pagination here</Flex>;
+};
+
 const CodexPage = () => {
   const [avastars, setAvastars] = useState<AvastarType[] | undefined>(undefined);
   const [total, setTotal] = useState<number | undefined>(undefined);
+  const [avastarModal, setAvastarModal] = useState<AvastarType | undefined>(undefined);
   const [filters, setFilters] = useState<GetAvastarsQueryParams>({
     gender: undefined,
     rarity: undefined,
     series: undefined,
   });
-  const debouncedFilters = useDebounce(filters, 500);
+  const debouncedFilters = useDebounce(filters, 800);
 
   const updateFilters = (updatedFilters: typeof filters) => {
     setFilters({ ...filters, ...updatedFilters });
@@ -117,8 +124,8 @@ const CodexPage = () => {
     <Box>
       <Filters {...{ filters, updateFilters }} />
       <Box sx={{ ml: CUSTOM_SIZES.filtersWidth }}>
-        <Container>
-          <Box sx={{ textAlign: 'center', mt: 3, mb: 4 }}>
+        <Container sx={{ maxWidth: '100%' }}>
+          <Box sx={{ textAlign: 'center', my: 3 }}>
             <Heading>Codex</Heading>
             <Text>Explore avastars with given criteria</Text>
           </Box>
@@ -126,18 +133,28 @@ const CodexPage = () => {
             <Loader />
           ) : avastars.length > 0 ? (
             <>
-              <Text>Avastars ({total})</Text>
+              <Text sx={{ fontSize: 6, color: 'primary', textTransform: 'uppercase' }}>
+                Avastars ({total})
+              </Text>
               <Flex sx={{ flexWrap: 'wrap', justifyContent: 'center' }}>
                 {avastars.map((avastar) => (
-                  <AvastarCard {...avastar} key={avastar._id} />
+                  <AvastarCard {...{ avastar, setAvastarModal }} key={avastar._id} />
                 ))}
               </Flex>
+              <Pagination />
             </>
           ) : (
             <Text>Couldn`t find any avastars matching given criteria.</Text>
           )}
         </Container>
       </Box>
+      <Modal onClose={() => setAvastarModal(undefined)} isOpen={avastarModal !== undefined}>
+        {avastarModal && (
+          <Box my={4}>
+            <AvastarDetailedView {...{ avastar: avastarModal }} />
+          </Box>
+        )}
+      </Modal>
     </Box>
   );
 };

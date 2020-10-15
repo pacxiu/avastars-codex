@@ -12,6 +12,7 @@ const Layout = ({ children }: WithChildren) => (
       sx={{
         pt: CUSTOM_SIZES.menuHeight,
         position: 'relative',
+        flex: 1,
         '&:after': {
           position: 'absolute',
           display: 'block',

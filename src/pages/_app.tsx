@@ -7,6 +7,10 @@ import Head from 'next/head';
 import Web3Provider from 'providers/Web3Provider';
 import Layout from 'components/Layout';
 
+import Modal from 'react-modal';
+
+Modal.setAppElement('#__next');
+
 const globalStyles = `
   html,
   body,
@@ -24,6 +28,10 @@ const globalStyles = `
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+  }
+
+  body.ReactModal__Body--open {
+    overflow: hidden;
   }
 `;
 

@@ -10,7 +10,7 @@ export const CUSTOM_SIZES = {
 };
 
 // //////////////////// 0   1   2   3   4   5   6   7   8  9   10
-const baseFontSizes = [10, 12, 14, 16, 18, 20, 22, 24, 32, 37, 40, 55];
+const baseFontSizes = [10, 12, 14, 16, 18, 20, 22, 24, 32, 40, 48, 64];
 const baseSpace = [0, 4, 8, 16, 32, 64, 128, 256, 512];
 const baseSizes = [0, 4, 8, 16, 32, 64, 128, 256, 512];
 
@@ -35,13 +35,16 @@ const theme = {
       epic: 'rgb(119, 93, 208)',
       legendary: 'rgb(255, 69, 96)',
     },
+    surface: '#FFF',
   },
   fonts: {
     body: 'Inconsolata, monospace',
     heading: 'Inconsolata, monospace',
   },
   borders: {
+    light: '1px solid',
     normal: '2px solid',
+    thick: '3px solid',
   },
   fontWeights: {
     body: 500,
@@ -51,21 +54,8 @@ const theme = {
   },
   lineHeights: {
     body: 1.35,
-    // heading: 1.57,
-    // tight: 1.05,
-    // loose: 1.35,
-    // to properly height buttons
-    // buttons: 2,
-    // secondaryButton: 0.8,
-    // smallButton: 1.9,
+    heading: 1.57,
   },
-  // radii: {
-  //   big: pxToRem(42),
-  // },
-  // shadows: {
-  //   primary: '0px 0px 6px #00000029',
-  //   faqSection: '0px 0px 3px #5858582B',
-  // },
   buttons: {
     primary: {
       fontFamily: 'body',
@@ -86,16 +76,12 @@ const theme = {
         color: 'primary',
       },
     },
+    closeModal: {
+      variant: 'buttons.primary',
+      padding: '0.3em 0.8em',
+      fontSize: 4,
+    },
   },
-  //   textual: {
-  //     variant: 'buttons.primary',
-  //     p: 0,
-  //     bg: 'transparent',
-  //     fontWeight: 'bold',
-  //     boxShadow: 'none',
-  //     textDecoration: 'underline',
-  //   },
-  // },
   text: {
     body: {
       fontFamily: 'body',
@@ -110,13 +96,21 @@ const theme = {
       fontSize: 9,
       color: 'primary',
     },
+    mediumHeading: {
+      variant: 'text.heading',
+      fontSize: 8,
+    },
+    smallHeading: {
+      variant: 'text.heading',
+      fontSize: 7,
+    },
+    avastarViewLabel: {
+      bg: 'primaryEmphasis',
+      textTransform: 'uppercase',
+      fontWeight: 'semiBold',
+      p: 2,
+    },
   },
-  //   // mediumHeading: {
-  //   //   fontFamily: 'heading',
-  //   //   lineHeight: 'heading',
-  //   //   fontSize: 7,
-  //   // },
-  // },
   forms: {
     label: {
       cursor: 'pointer',

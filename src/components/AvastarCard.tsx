@@ -1,19 +1,22 @@
-import React, { useState } from 'react';
-import { AvastarType, getRarityFromScore, getSeriesFromId } from 'server/models/AvastarCollection';
+import { useAvastarMetadata } from 'hooks/useAvastarMetadata';
+import React, { Dispatch, SetStateAction } from 'react';
+import { AvastarType, getAvastarImage } from 'server/models/AvastarCollection';
 import { pxToRem, TRANSITIONS } from 'theme';
 import { Box, Flex, Image, Text } from 'theme-ui';
-import { rarityIcons } from './Icons';
 
-const getAvastarImage = (id: number) => `https://avastars.io/media/${id}`;
-
-const AvastarCard = ({ _id, Score }: AvastarType) => {
-  const [rarity] = useState(getRarityFromScore(Score));
-  const [series] = useState(getSeriesFromId(_id));
-  const Icon = rarityIcons[rarity];
+const AvastarCard = ({
+  avastar,
+  avastar: { _id, Score },
+  setAvastarModal,
+}: {
+  avastar: AvastarType;
+  setAvastarModal: Dispatch<SetStateAction<AvastarType | undefined>>;
+}) => {
+  const { rarity, series, Icon } = useAvastarMetadata(avastar);
 
   return (
     <Box
-      onClick={() => window.alert(`modal for ${_id}`)}
+      onClick={() => setAvastarModal(avastar)}
       sx={{
         width: pxToRem(250),
         margin: 3,
@@ -28,7 +31,11 @@ const AvastarCard = ({ _id, Score }: AvastarType) => {
       }}
     >
       <Box sx={{ p: 1 }}>
-        <Image variant="avastarCard" src={getAvastarImage(_id)} />
+        <Image
+          variant="avastarCard"
+          src={getAvastarImage(_id)}
+          sx={{ height: pxToRem(238), bg: 'primaryAlt' }}
+        />
         <Flex
           sx={{
             bg: 'background',

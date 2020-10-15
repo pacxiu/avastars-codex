@@ -12,20 +12,22 @@ type TraitKey =
   | 'eyes'
   | 'hair_style';
 
-export type Rarity = 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
+export type RarityType = 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
 
-export type Gender = 'male' | 'female';
+export type GenderType = 'male' | 'female';
+
+export type TraitsType = {
+  [key in TraitKey]: string;
+};
 
 export interface AvastarType {
   _id: number;
-  Gender: Gender;
+  Gender: GenderType;
   Score: number;
-  traits: {
-    [key in TraitKey]: string;
-  };
+  traits: TraitsType;
 }
 
-export const getRarityFromScore = (score: number): Rarity => {
+export const getRarityFromScore = (score: number): RarityType => {
   if (score < 33) {
     return 'common';
   }
@@ -42,7 +44,7 @@ export const getRarityFromScore = (score: number): Rarity => {
   return 'legendary';
 };
 
-export const getScoreRangeFromRarity = (rarity: Rarity | undefined): number[] | undefined => {
+export const getScoreRangeFromRarity = (rarity: RarityType | undefined): number[] | undefined => {
   switch (rarity) {
     case 'common':
       return [0, 32];
@@ -79,3 +81,5 @@ export const getIdRangeFromSeries = (series: string | undefined): number[] | und
 // 5200-10199 Series 3
 // 10200-15199 Series 4
 export const getSeriesFromId = (id: number): number => Math.floor((id - 200) / 5000) + 1;
+
+export const getAvastarImage = (id: number) => `https://avastars.io/media/${id}`;

@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Rarity } from 'server/models/AvastarCollection';
+import { RarityType } from 'server/models/AvastarCollection';
 
 export const AvastarIcon = () => (
   <svg
@@ -113,7 +113,7 @@ export const CommonRarityIcon = () => (
   </svg>
 );
 
-export const rarityIcons: { [key in Rarity]: ReactNode } = {
+export const rarityIcons: { [key in RarityType]: ReactNode } = {
   common: CommonRarityIcon,
   uncommon: UncommonRarityIcon,
   rare: RareRarityIcon,
