@@ -25,6 +25,8 @@ export interface GetAvastarsQueryParams {
   gender?: GenderType;
   rarity?: RarityType;
   series?: string;
+  from: string;
+  size: string;
 }
 
 export interface GetAvastarsResponse {

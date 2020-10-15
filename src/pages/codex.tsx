@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import { AvastarType, GenderType, RarityType } from 'server/models/AvastarCollection';
 import { GetAvastarsQueryParams, requestAvastars } from 'services/api';
 import { CUSTOM_SIZES } from 'theme';
-import { Box, Checkbox, Container, Flex, Heading, Label, Text } from 'theme-ui';
+import { Box, Button, Checkbox, Container, Flex, Heading, Label, Text } from 'theme-ui';
 
 const GENDER_OPTIONS: { value: GenderType | undefined; label: string }[] = [
   { value: undefined, label: 'Any' },
@@ -90,35 +90,100 @@ const Filters = ({ filters: { gender, rarity, series }, updateFilters }: any) =>
   );
 };
 
-const Pagination = () => {
-  return <Flex sx={{ alignItems: 'center', justifyContent: 'center' }}>Pagination here</Flex>;
+const Pagination = ({
+  pagination,
+  onChangePage,
+  loading,
+}: {
+  pagination: any;
+  onChangePage: any;
+  loading: boolean;
+}) => {
+  return (
+    <Flex sx={{ alignItems: 'center', justifyContent: 'center', mb: 4, mt: 2 }}>
+      <Button
+        variant="pagination"
+        onClick={
+          pagination.current === 1 || loading
+            ? undefined
+            : () => onChangePage(pagination.current - 1)
+        }
+        disabled={pagination.current === 1 || loading}
+      >
+        -
+      </Button>
+      <Text mx={2}>
+        {pagination.current} of {pagination.total}
+      </Text>
+      <Button
+        variant="pagination"
+        onClick={
+          pagination.current === pagination.total || loading
+            ? undefined
+            : () => onChangePage(pagination.current + 1)
+        }
+        disabled={pagination.current === pagination.total || loading}
+      >
+        +
+      </Button>
+    </Flex>
+  );
 };
+
+const BATCH_SIZE = 10;
 
 const CodexPage = () => {
   const [avastars, setAvastars] = useState<AvastarType[] | undefined>(undefined);
   const [total, setTotal] = useState<number | undefined>(undefined);
   const [avastarModal, setAvastarModal] = useState<AvastarType | undefined>(undefined);
-  const [filters, setFilters] = useState<GetAvastarsQueryParams>({
+  // redeclare from and size to use of use as numbers and then parse as strings to query params
+  const [filters, setFilters] = useState<
+    Omit<GetAvastarsQueryParams, 'from' | 'size'> & {
+      from: number;
+      size: number;
+    }
+  >({
     gender: undefined,
     rarity: undefined,
     series: undefined,
+    from: 0,
+    size: BATCH_SIZE,
   });
+  const [pagination, setPagination] = useState({ current: 1, total: 1 });
   const debouncedFilters = useDebounce(filters, 800);
-
-  const updateFilters = (updatedFilters: typeof filters) => {
-    setFilters({ ...filters, ...updatedFilters });
-  };
 
   useEffect(() => {
     const fetchAvastars = async () => {
       setAvastars(undefined);
-      const { data, total } = await requestAvastars({ ...filters });
+      const { data, total } = await requestAvastars({
+        ...filters,
+        from: filters.from.toString(),
+        size: filters.size.toString(),
+      });
+
       setAvastars(data);
+      setPagination({
+        ...pagination,
+        ...(filters.from === 0 && { current: 1 }),
+        total: total > BATCH_SIZE ? Math.floor(total / BATCH_SIZE + 1) : 1,
+      });
       setTotal(total);
     };
 
     fetchAvastars();
   }, [debouncedFilters]);
+
+  const updateFilters = (updatedFilters: typeof filters) => {
+    setFilters({ ...filters, ...updatedFilters, from: 0 });
+  };
+
+  const onChangePage = (current: number) => {
+    setFilters({
+      ...filters,
+      from: (current - 1) * +filters.size,
+    });
+    setPagination({ ...pagination, current });
+  };
 
   return (
     <Box>
@@ -141,7 +206,7 @@ const CodexPage = () => {
                   <AvastarCard {...{ avastar, setAvastarModal }} key={avastar._id} />
                 ))}
               </Flex>
-              <Pagination />
+              <Pagination {...{ pagination, onChangePage, loading: avastars === undefined }} />
             </>
           ) : (
             <Text>Couldn`t find any avastars matching given criteria.</Text>

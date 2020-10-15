@@ -63,7 +63,7 @@ const theme = {
       fontSize: 'body',
       fontWeight: 'bold',
       borderRadius: 0,
-      padding: '0.5em 1.4em',
+      p: '0.5em 1.4em',
       transition: TRANSITIONS.standard,
       border: 'normal',
       borderColor: 'primary',
@@ -75,11 +75,20 @@ const theme = {
         bg: 'background',
         color: 'primary',
       },
+      '&:disabled': {
+        pointerEvents: 'none',
+        opacity: '0.75',
+      },
     },
     closeModal: {
       variant: 'buttons.primary',
-      padding: '0.3em 0.8em',
+      p: '0.3em 0.8em',
       fontSize: 4,
+    },
+    pagination: {
+      variant: 'buttons.primary',
+      fontSize: 7,
+      p: '0.1em 0.7em 0.08em',
     },
   },
   text: {

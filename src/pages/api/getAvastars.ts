@@ -33,11 +33,15 @@ const getMatchQuery = (query: GetAvastarsQueryParams): FilterQuery<AvastarType> 
 
 const handler = async (req: NextApiRequest & WithDb, res: NextApiResponse) => {
   const avastars: Collection<AvastarType> = req.db.collection('AvastarCollection');
-  const matchQuery = getMatchQuery(req.query);
-  console.log(matchQuery);
-  const query = await avastars.find(matchQuery).limit(10);
-  const data = await query.toArray();
-  const total = await query.count();
+  const query = (req.query as unknown) as GetAvastarsQueryParams;
+  const matchQuery = getMatchQuery(query);
+  console.log(matchQuery, query.size, query.from);
+  const cursor = await avastars
+    .find(matchQuery)
+    .skip(+query.from || 0)
+    .limit(Math.min(+query.size || 10, 30));
+  const data = await cursor.toArray();
+  const total = await cursor.count();
 
   res.status(200).json({ data, total } as GetAvastarsResponse);
 };
