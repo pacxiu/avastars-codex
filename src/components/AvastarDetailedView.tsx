@@ -1,7 +1,9 @@
 import { useAvastarMetadata } from 'hooks/useAvastarMetadata';
+import { formatAddress } from 'providers/Web3Provider';
 import { AvastarType, getAvastarImage, TraitsType } from 'server/models/AvastarCollection';
 import { pxToRem } from 'theme';
 import { Box, Flex, Image, Text } from 'theme-ui';
+import AppLink from './AppLink';
 
 const Traits = ({ traits }: { traits: TraitsType }) => {
   return (
@@ -17,7 +19,7 @@ const Traits = ({ traits }: { traits: TraitsType }) => {
 
 const AvastarDetailedView = ({
   avastar,
-  avastar: { _id, Gender, Score, traits },
+  avastar: { _id, Gender, Score, traits, Owner },
 }: {
   avastar: AvastarType;
 }) => {
@@ -72,6 +74,12 @@ const AvastarDetailedView = ({
               {rarity}
             </Text>
           </Flex>
+          <Box>
+            <Text>Owner: </Text>
+            <AppLink href="/profile/[address]" as={`/profile/${Owner}`}>
+              {formatAddress(Owner)}
+            </AppLink>
+          </Box>
         </Box>
         <Box sx={{ p: 4, pl: pxToRem(40) }}>
           <Flex

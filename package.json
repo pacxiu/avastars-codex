@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.35",
+    "ethers": "^5.0.19",
     "fork-ts-checker-webpack-plugin": "^5.2.0",
     "isomorphic-fetch": "^3.0.0",
     "mongodb": "^3.6.2",

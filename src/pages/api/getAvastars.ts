@@ -10,12 +10,13 @@ import { GetAvastarsQueryParams, GetAvastarsResponse } from 'services/api';
 import { WithDb } from 'types';
 
 const getMatchQuery = (query: GetAvastarsQueryParams): FilterQuery<AvastarType> => {
-  const { gender, rarity, series } = query;
+  const { gender, rarity, series, owner } = query;
   const scoreRange = getScoreRangeFromRarity(rarity);
   const idRange = getIdRangeFromSeries(series);
 
   return {
     ...(gender && { Gender: gender }),
+    ...(owner && { Owner: owner }),
     ...(scoreRange && {
       Score: {
         ...(scoreRange[0] && { $gte: scoreRange[0] }),

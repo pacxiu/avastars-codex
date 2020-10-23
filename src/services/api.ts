@@ -27,6 +27,7 @@ export interface GetAvastarsQueryParams {
   series?: string;
   from: string;
   size: string;
+  owner?: string;
 }
 
 export interface GetAvastarsResponse {

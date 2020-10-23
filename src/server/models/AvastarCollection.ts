@@ -25,6 +25,7 @@ export interface AvastarType {
   Gender: GenderType;
   Score: number;
   traits: TraitsType;
+  Owner: string;
 }
 
 export const getRarityFromScore = (score: number): RarityType => {
