@@ -74,12 +74,15 @@ const AvastarDetailedView = ({
               {rarity}
             </Text>
           </Flex>
-          <Box>
+          <Flex
+            variant="text.avastarViewLabel"
+            sx={{ alignItems: 'center', justifyContent: 'space-between' }}
+          >
             <Text>Owner: </Text>
             <AppLink href="/profile/[address]" as={`/profile/${Owner}`}>
               {formatAddress(Owner)}
             </AppLink>
-          </Box>
+          </Flex>
         </Box>
         <Box sx={{ p: 4, pl: pxToRem(40) }}>
           <Flex

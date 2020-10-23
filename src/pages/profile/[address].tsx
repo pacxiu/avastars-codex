@@ -2,7 +2,7 @@ import { useRouter } from 'next/dist/client/router';
 import { Box, Container, Heading } from 'theme-ui';
 import { utils } from 'ethers';
 import { useEffect, useState } from 'react';
-import Codex from 'components/Codex';
+import Avadex from 'components/Avadex';
 import Loader from 'components/Loader';
 
 const ProfilePage = () => {
@@ -16,7 +16,7 @@ const ProfilePage = () => {
   }, [query]);
 
   return isAddress === true ? (
-    <Codex owner={query.address as string} />
+    <Avadex owner={query.address as string} />
   ) : (
     <Container sx={{ mt: 3, textAlign: 'center' }}>
       {isAddress === undefined ? null : (

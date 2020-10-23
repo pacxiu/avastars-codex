@@ -132,7 +132,7 @@ const Pagination = ({
 
 const BATCH_SIZE = 10;
 
-const Codex = ({ owner }: { owner?: string }) => {
+const Avadex = ({ owner }: { owner?: string }) => {
   const [avastars, setAvastars] = useState<AvastarType[] | undefined>(undefined);
   const [total, setTotal] = useState<number | undefined>(undefined);
   const [avastarModal, setAvastarModal] = useState<AvastarType | undefined>(undefined);
@@ -192,7 +192,7 @@ const Codex = ({ owner }: { owner?: string }) => {
       <Box sx={{ ml: CUSTOM_SIZES.filtersWidth }}>
         <Container sx={{ maxWidth: '100%' }}>
           <Box sx={{ textAlign: 'center', my: 3 }}>
-            <Heading>Codex</Heading>
+            <Heading>Avadex</Heading>
             <Text>Explore avastars with given criteria</Text>
           </Box>
           {avastars === undefined ? (
@@ -225,4 +225,4 @@ const Codex = ({ owner }: { owner?: string }) => {
   );
 };
 
-export default Codex;
+export default Avadex;

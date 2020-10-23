@@ -44,8 +44,8 @@ const Menu = () => {
             }}
           >
             <Box>
-              <AppLink href="/codex" sx={{ mr: 4 }}>
-                Codex
+              <AppLink href="/avadex" sx={{ mr: 4 }}>
+                Avadex
               </AppLink>
               <AppLink href="/avastar/[id]" as={`/avastar/${getRandomAvatarId()}`}>
                 Random avastar

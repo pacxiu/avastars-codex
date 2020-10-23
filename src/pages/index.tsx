@@ -19,8 +19,8 @@ export default function Home() {
           <Box as="li">see details for given Avastar, in modal and dedicated page</Box>
           <Box as="li">investigate ethereum address on dedicated page</Box>
         </Box>
-        <AppLink href="/codex" sx={{ mt: 4, display: 'block' }}>
-          <Button>See Avastars Codex</Button>
+        <AppLink href="/avadex" sx={{ mt: 4, display: 'block' }}>
+          <Button>See Avadex</Button>
         </AppLink>
         <Box sx={{ fontSize: 3, mt: 6 }}>
           <Text sx={{}}>
