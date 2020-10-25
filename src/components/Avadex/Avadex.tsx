@@ -5,99 +5,22 @@ import Modal from 'components/Modal';
 import { useDebounce } from 'hooks/useDebounce';
 import { formatAddress } from 'providers/Web3Provider';
 import { useEffect, useState } from 'react';
-import { AvastarType, GenderType, RarityType } from 'server/models/AvastarCollection';
-import { GetAvastarsQueryParams, requestAvastars } from 'services/api';
+import { AvastarType } from 'server/models/AvastarCollection';
+import { requestAvastars } from 'services/api';
 import { CUSTOM_SIZES } from 'theme';
-import { Box, Button, Checkbox, Container, Flex, Heading, Label, Text } from 'theme-ui';
-
-const GENDER_OPTIONS: { value: GenderType | undefined; label: string }[] = [
-  { value: undefined, label: 'Any' },
-  { value: 'male', label: 'Male' },
-  { value: 'female', label: 'Female' },
-];
-
-const RARITY_OPTIONS: { value: RarityType | undefined; label: string }[] = [
-  { value: undefined, label: 'Any' },
-  { value: 'common', label: 'Common' },
-  { value: 'uncommon', label: 'Uncommon' },
-  { value: 'rare', label: 'Rare' },
-  { value: 'epic', label: 'Epic' },
-  { value: 'legendary', label: 'Legendary' },
-];
-
-const SERIES_OPTIONS: { value: string | undefined; label: string }[] = [
-  { value: undefined, label: 'Any' },
-  { value: '1', label: '1' },
-  { value: '2', label: '2' },
-  { value: '3', label: '3' },
-];
-
-const Filters = ({ filters: { gender, rarity, series }, updateFilters }: any) => {
-  return (
-    <Box
-      sx={{
-        position: 'fixed',
-        left: 0,
-        bottom: 0,
-        top: CUSTOM_SIZES.menuHeight,
-        bg: 'wheat',
-        width: CUSTOM_SIZES.filtersWidth,
-        p: 2,
-      }}
-    >
-      <Box>Gender</Box>
-      <Flex sx={{ alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', mb: 4 }}>
-        {GENDER_OPTIONS.map(({ label, value }) => (
-          <Box key={label}>
-            <Label>
-              {label}
-              <Checkbox
-                onChange={() => updateFilters({ gender: value })}
-                checked={gender === value}
-              />
-            </Label>
-          </Box>
-        ))}
-      </Flex>
-      <Box>Rarity</Box>
-      <Flex sx={{ alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', mb: 4 }}>
-        {RARITY_OPTIONS.map(({ label, value }) => (
-          <Box key={label}>
-            <Label>
-              {label}
-              <Checkbox
-                onChange={() => updateFilters({ rarity: value })}
-                checked={rarity === value}
-              />
-            </Label>
-          </Box>
-        ))}
-      </Flex>
-      <Box>Series</Box>
-      <Flex sx={{ alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', mb: 4 }}>
-        {SERIES_OPTIONS.map(({ label, value }) => (
-          <Box key={label}>
-            <Label>
-              {label}
-              <Checkbox
-                onChange={() => updateFilters({ series: value })}
-                checked={series === value}
-              />
-            </Label>
-          </Box>
-        ))}
-      </Flex>
-    </Box>
-  );
-};
+import { Box, Button, Container, Flex, Heading, Text } from 'theme-ui';
+import Filters, { FiltersType, RARITY_OPTIONS, TRAIT_NAME_OPTIONS } from './Filters';
 
 const Pagination = ({
   pagination,
   onChangePage,
   loading,
 }: {
-  pagination: any;
-  onChangePage: any;
+  pagination: {
+    current: number;
+    total: number;
+  };
+  onChangePage: (current: number) => void;
   loading: boolean;
 }) => {
   return (
@@ -138,17 +61,15 @@ const Avadex = ({ owner }: { owner?: string }) => {
   const [total, setTotal] = useState<number | undefined>(undefined);
   const [avastarModal, setAvastarModal] = useState<AvastarType | undefined>(undefined);
   // redeclare from and size to use of use as numbers and then parse as strings to query params
-  const [filters, setFilters] = useState<
-    Omit<GetAvastarsQueryParams, 'from' | 'size'> & {
-      from: number;
-      size: number;
-    }
-  >({
+  const [filters, setFilters] = useState<FiltersType>({
     gender: undefined,
     rarity: undefined,
     series: undefined,
     from: 0,
     size: BATCH_SIZE,
+    traitRarityCountRarity: RARITY_OPTIONS[0],
+    traitRarityCountRange: [0, 12],
+    traitName: TRAIT_NAME_OPTIONS[0],
   });
   const [pagination, setPagination] = useState({ current: 1, total: 1 });
   const debouncedFilters = useDebounce(filters, 800);
@@ -161,6 +82,9 @@ const Avadex = ({ owner }: { owner?: string }) => {
         from: filters.from.toString(),
         size: filters.size.toString(),
         owner,
+        traitRarityCountRarity: filters.traitRarityCountRarity.value,
+        traitRarityCountRange: filters.traitRarityCountRange.map((el) => el.toString()),
+        traitName: filters.traitName.value,
       });
 
       setAvastars(data);
@@ -175,7 +99,7 @@ const Avadex = ({ owner }: { owner?: string }) => {
     fetchAvastars();
   }, [debouncedFilters]);
 
-  const updateFilters = (updatedFilters: typeof filters) => {
+  const updateFilters = (updatedFilters: Partial<FiltersType>) => {
     setFilters({ ...filters, ...updatedFilters, from: 0 });
   };
 
@@ -190,10 +114,10 @@ const Avadex = ({ owner }: { owner?: string }) => {
   return (
     <Box>
       <Filters {...{ filters, updateFilters }} />
-      <Box sx={{ ml: CUSTOM_SIZES.filtersWidth }}>
+      {/* <Box sx={{ ml: CUSTOM_SIZES.filtersWidth }}>
         <Container sx={{ maxWidth: '100%' }}>
           <Box sx={{ textAlign: 'center', my: 3 }}>
-            <Heading>{owner ? `Profile for ${formatAddress(owner)}` : 'Avadex'}</Heading>
+            <Heading>{owner ? `Profile for ${formatAddress(owner)}` : 'AvaDex'}</Heading>
             <Text>Explore avastars with given criteria</Text>
           </Box>
           {avastars === undefined ? (
@@ -214,7 +138,7 @@ const Avadex = ({ owner }: { owner?: string }) => {
             <Text>Couldn`t find any avastars matching given criteria.</Text>
           )}
         </Container>
-      </Box>
+      </Box> */}
       <Modal onClose={() => setAvastarModal(undefined)} isOpen={avastarModal !== undefined}>
         {avastarModal && (
           <Box my={4}>

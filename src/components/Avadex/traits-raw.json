@@ -1,0 +1,4312 @@
+{
+  "Backdrop" : [ null, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 1",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 2",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 3",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 4",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 5",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 5
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 6",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 6
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 7",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 17",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 9",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 9
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 10",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 10
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 11",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 11
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 12",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 12
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 13",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 13
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 14",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 14
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 15",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 15
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 16",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 16
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 37",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 17
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 18",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 18
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 19",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 19
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 20",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 20
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 21",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 21
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 22",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 22
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 23",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 23
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 24",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 24
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 25",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 25
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 26",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 26
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 27",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 27
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 28",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 28
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 29",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 30",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 31",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 31
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 32",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 32
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 33",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 33
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 34",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 34
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 35",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 35
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 36",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 36
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 41",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 37
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 38",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 38
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 39",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 39
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 40",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 40
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 8",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 41
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 42",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 42
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 43",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 43
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 44",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 44
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 45",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 46",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 51",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 48",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 49",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 49
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 50",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 50
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 47",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 51
+  }, {
+    "gender" : "Any",
+    "gene" : "Backdrop",
+    "name" : "Backdrop 52",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 52
+  } ],
+  "Bg Color" : [ null, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "White",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Clear Skies",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Purple Urkle",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Winter Day",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Twilight Blue",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 5
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Zircon",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 6
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Spring Breeze",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Lilac White",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Titan White",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 9
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Purple Chalk",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 10
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Little Bird",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 11
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Lily White",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 12
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Powder Blue",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 13
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pink Pointer",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 14
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "After Rain",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 15
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Violet White",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 16
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Tutu",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 17
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Clearer Day",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 18
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Blue Chalk",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 19
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Lavender White",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 20
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Elephant Tusk",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 21
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Black White",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 22
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "White Pointer",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 23
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Ivory",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 24
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Dew",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 25
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Sunrise",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 26
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Solitude",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 27
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Clear Day",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 28
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Zumthor",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Purple White",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Blue Dream",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 31
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Baby Blanket",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 32
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Summer Rain",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 33
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Sugar Cane",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 34
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Violet Chalk",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 35
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pink Chalk",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 36
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pale Leaf",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 37
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pink",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 38
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Ceramic",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 39
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Light Mint",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 40
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Hint of Green",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 41
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Mellow Yellow",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 42
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pink Lace",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 43
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pale Rose",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 44
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Easter Egg",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pretty Pink",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Spring Hug",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Pale Red Rose",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Blue Bubbles",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 49
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Soft Lavender",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 50
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Fabulous",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 51
+  }, {
+    "gender" : "Any",
+    "gene" : "Bg Color",
+    "name" : "Blush",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 52
+  } ],
+  "Ears" : [ null, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Narrow",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Square Gold Stud",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Attached",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Pointed",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Square",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 5
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Narrow",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 6
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Sticking Out",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Narrow Gold Stud",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Rounded",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 9
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Sticking Out",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 10
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Pointed",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 11
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Attached",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 12
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Pointed Ear Cuff",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 13
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Broad",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 14
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Narrow Gold Stud",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 15
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Rounded",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 16
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Broad",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 17
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Pointed Ear Cuff",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 18
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Square Gold Stud",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 19
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Square",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 20
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Rounded Bitcoin Stud",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 21
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Broad CryptoVoxels Earrings",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 22
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Narrow Small Hoop",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 23
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Rounded Bitcoin Earrings",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 24
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Broad CryptoVoxels Stud",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 25
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Narrow Small Hoops",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 26
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Van Gogh (one ear)",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 27
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Attached Bluetooth",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 28
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Sticking Out Ear Clip",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Van Gogh (one ear)",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Attached Bluetooth",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 31
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Sticking Out Ear Clip",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 32
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Rounded Gauges",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 33
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Elf",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 34
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Marmota x Milky Potato",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 35
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Rounded Gauges",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 36
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Pointed Cheeze Wedge Stud",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 37
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Pointed Cheeze Wedge Earrings",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 38
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Elf",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 39
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Marmota x Milky Potato",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 40
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Square Bitcoin Stud",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 41
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Cyborg",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 42
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Narrow Bitcoin Stud",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 43
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Broad Opensea Earrings",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 44
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Cyborg",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Square Bitcoin Earrings",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Broad Opensea Stud",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Narrow Bitcoin Earrings",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Elf Ethereum Stud",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 49
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Elf Ethereum Earrings",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 50
+  }, {
+    "gender" : "Male",
+    "gene" : "Ears",
+    "name" : "Attached Bitcoin Earring",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 51
+  }, {
+    "gender" : "Female",
+    "gene" : "Ears",
+    "name" : "Attached Bitcoin Earrings",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 52
+  } ],
+  "Eye Color" : [ null, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Bubbles",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Rosewood",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Baby",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Cerulean",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Inchworm",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 5
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Celadon",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 6
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Pistachio",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Dark Olive",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Bright Lavender",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 9
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Lavender",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 10
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Grape",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 11
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Purple Heart",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 12
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Iceberg",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 13
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Cornflower",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 14
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Air Force Blue",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 15
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Denim",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 16
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Classic Rose",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 17
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Pastel Magenta",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 18
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Eggplant",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 19
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Dark Raspberry",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 20
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Pastel Blue",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 21
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Dark Cyan",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 22
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Pine Green",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 23
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Prune",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 24
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Lawn Green",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 25
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Pastel Green",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 26
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Violet",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 27
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Dark Lavender",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 28
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Azure",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Cobalt",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Apricot",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 31
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Sky Magenta",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 32
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Auburn",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 33
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Lavender Blue",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 34
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Byzantine",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 35
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Citrine",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 36
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Chestnut",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 37
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Jade",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 38
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Gamboge",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 39
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Bole",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 40
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Duke Blue",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 41
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Plumb",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 42
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Clover",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 43
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Dark Slate Grey",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 44
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Mint",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Safety Orange",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Bright Ube",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Lemon",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Blue De France",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 49
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Candy Apple",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 50
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Golden",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 51
+  }, {
+    "gender" : "Any",
+    "gene" : "Eye Color",
+    "name" : "Bright Pink",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 52
+  } ],
+  "Eyes" : [ null, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Normal",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Left Wink",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Confused",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Sad",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Sideways Glance Right",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 5
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Mascara",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 6
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Sparking Eyes",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Surprised",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Left Wink",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 9
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Furrowed Brows",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 10
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Sad",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 11
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Right Wink",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 12
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Single Tear",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 13
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Angry",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 14
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Slanted Eyes",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 15
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Bloodshot",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 16
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Flirty",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 17
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Sideways Glance Right",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 18
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Furrowed Brows",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 19
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Normal",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 20
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Bloodshot",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 21
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Slanted Eyes",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 22
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Angry",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 23
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Single Tear",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 24
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Mascara",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 25
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Crying",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 26
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Right Wink",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 27
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Sparking Eyes",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 28
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Surprised",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Confused",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Crying",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 31
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Slim Sunnies",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 32
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Stoned",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 33
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Ski Goggles",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 34
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Trippy",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 35
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Wireframe",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 36
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Closed Eyes",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 37
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Stoned",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 38
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Cross Eyed",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 39
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Flirty",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 40
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Black Eye",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 41
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Jeweled Bindi",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 42
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Alice Cooper",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 43
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Cross Eyed",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 44
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Ski Goggles",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Closed Eyes",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Wireframe",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Trippy",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Bombers",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 49
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Marmota x Milky",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 50
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "VR Googles",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 51
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Monocle",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 52
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Taped Nerdy",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 53
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Black Frame",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 54
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Marmota x Milky",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 55
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Pirate Patch",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 56
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Monocle",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 57
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "VR Googles",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 58
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Black Frame",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 59
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Taped Nerdy",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 60
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Pirate Patch",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 61
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Cyclist Sun Glasses",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 62
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Cat Eyes",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 63
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Heart Glasses",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 64
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Heart Glasses",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 65
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Glam Rock",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 66
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Cyclist Sun Glasses",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 67
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Bombers",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 68
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "John Lennon",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 69
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Cat Eyes",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 70
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Slim Sunnies",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 71
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "John Lennon",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 72
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Hero Mask",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 73
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Hero Mask",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 74
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Cyborg",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 75
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Cyborg",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 76
+  }, {
+    "gender" : "Male",
+    "gene" : "Eyes",
+    "name" : "Steampunk",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 77
+  }, {
+    "gender" : "Female",
+    "gene" : "Eyes",
+    "name" : "Steampunk",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 78
+  } ],
+  "Face" : [ null, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 1",
+    "rarity" : "Common",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 1
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 2",
+    "rarity" : "Common",
+    "series" : [ 4, 5 ],
+    "variation" : 2
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 1",
+    "rarity" : "Common",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 3
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 2",
+    "rarity" : "Common",
+    "series" : [ 4, 5 ],
+    "variation" : 4
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 3",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 5
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 4",
+    "rarity" : "Uncommon",
+    "series" : [ 4, 5 ],
+    "variation" : 6
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 3",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 7
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 4",
+    "rarity" : "Uncommon",
+    "series" : [ 4, 5 ],
+    "variation" : 8
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 5",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 9
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 6",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 10
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 5",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 11
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 6",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 12
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 7",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 13
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 8",
+    "rarity" : "Epic",
+    "series" : [ 4, 5 ],
+    "variation" : 14
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 7",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 15
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 8",
+    "rarity" : "Epic",
+    "series" : [ 4, 5 ],
+    "variation" : 16
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 9",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 17
+  }, {
+    "gender" : "Male",
+    "gene" : "Face",
+    "name" : "Male Face 10",
+    "rarity" : "Legendary",
+    "series" : [ 4, 5 ],
+    "variation" : 18
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 9",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 19
+  }, {
+    "gender" : "Female",
+    "gene" : "Face",
+    "name" : "Female Face 10",
+    "rarity" : "Legendary",
+    "series" : [ 4, 5 ],
+    "variation" : 20
+  } ],
+  "Facial Feature" : [ null, {
+    "gender" : "Any",
+    "gene" : "Facial Feature",
+    "name" : "None",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Thin Sideburns",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Henna",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Any",
+    "gene" : "Facial Feature",
+    "name" : "None v2",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 4
+  }, {
+    "gender" : "Any",
+    "gene" : "Facial Feature",
+    "name" : "Small Scar",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 5
+  }, {
+    "gender" : "Any",
+    "gene" : "Facial Feature",
+    "name" : "None v3",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 6
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Beard",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 7
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Blush",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 8
+  }, {
+    "gender" : "Any",
+    "gene" : "Facial Feature",
+    "name" : "None v4",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 9
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Kissed",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 10
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Blush v2",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 11
+  }, {
+    "gender" : "Any",
+    "gene" : "Facial Feature",
+    "name" : "None v5",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 12
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Bitcoin Tattoo",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 13
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Glitter v3",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 14
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Bitcoin Tattoo",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 15
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Flower Tattoo",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 16
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Ethereum Tattoo",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 17
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Black Stripes",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 18
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Fashion Show",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 19
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Snowflake Tattoo",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 20
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Tribal",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 21
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Mutton Chops",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 22
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Glitter v2",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 23
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Henna v2",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 24
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Sideburns",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 25
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Band Aid",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 26
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Mountain Man",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 27
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Merlin's Beard",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 28
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Rainbow Tattoo",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 29
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Circuit Board Makeup",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 30
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Goatee",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 31
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Hipster Beard",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 32
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Henna v3",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 33
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Glitter",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 34
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Freckles",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 35
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Carnivale",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 36
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Santa",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 37
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Ethereum Tattoo",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 38
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Neckbeard",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 39
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Butterfly Tattoo",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 40
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Carnivale",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 41
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Fantasy Makeup",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 42
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Zeus's Beard",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 43
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Cyborg",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 44
+  }, {
+    "gender" : "Female",
+    "gene" : "Facial Feature",
+    "name" : "Cat Whiskers",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Male",
+    "gene" : "Facial Feature",
+    "name" : "Cyborg",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 46
+  } ],
+  "Hair Color" : [ null, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Bleached Blonde",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "White Blonde",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Light Blonde",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Strawberry Blonde",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 4
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Light Red",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 5
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Dark Red",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 6
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Brown",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 7
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Light Brown",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 8
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Ash Brown",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 9
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Orange",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 10
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Off Black",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 11
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Dark Brown",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 12
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Light Grey",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 13
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Medium Grey",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 14
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Dark Grey",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 15
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Golden Blonde",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 16
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Ash Blonde",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 17
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Honey Blonde",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 18
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Platinum Blonde",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 19
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Light Auburn",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 20
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Dark Auburn",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 21
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Medium Brown",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 22
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Reddish Brown",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 23
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Grey",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 24
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Dark Sky",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 25
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Spring Rain",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 26
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Black",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 27
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Sun",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 28
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Fire",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Leaf",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Blue",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 31
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Yellow",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 32
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Daisies",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 33
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Red Berry",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 34
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Cyan",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 35
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Lava",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 36
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Neon Green",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 37
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Bright Purple",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 38
+  }, {
+    "gender" : "Any",
+    "gene" : "Hair Color",
+    "name" : "Neon Pink",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 39
+  } ],
+  "Hair Style" : [ null, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Marmota x Milky",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Messy",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Big Mohawk",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Cornrows",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Slicked Back",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 5
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Manbun",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 6
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Afro",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Geisha",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Flowing",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 9
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Short Mohawk",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 10
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Bald",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 11
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Neat Afro",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 12
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Nightclub",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 13
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Cornrows",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 14
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Birthday Hat",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 15
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Afro",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 16
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Vampire",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 17
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Balding",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 18
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Bald",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 19
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Buzzed",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 20
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Vampire",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 21
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Messy",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 22
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Samurai",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 23
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Big Mohawk",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 24
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Tight Curls",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 25
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Ponytail",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 26
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Short Mohawk",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 27
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Marmota x Milky",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 28
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Buzzed",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Long Messy",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "80's Headband",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 31
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Pigtails",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 32
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Messy Braids",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 33
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Cowgirl",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 34
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Pirate",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 35
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Construction Helmet",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 36
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Castro",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 37
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "80's Headband",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 38
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Turban",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 39
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Pirate",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 40
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "DJ Headphones",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 41
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Beanie",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 42
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Punk Rocker",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 43
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Castro",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 44
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Dreadlocks",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Firewoman",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Beanie",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "DJ Headphones",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Soldier",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 49
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Dreadlocks",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 50
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Police Hat",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 51
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Bunny Ears",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 52
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "OpenSea Trucker",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 53
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Giant Bow",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 54
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Aussie",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 55
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Soldier",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 56
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Cowboy",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 57
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Police Hat",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 58
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Construction Helmet",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 59
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "OpenSea Trucker",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 60
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Fresh",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 61
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Indian Chieftess",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 62
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Motorcycle Cop",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 63
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Wizard Hat",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 64
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Admiral's Hat",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 65
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Cute",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 66
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Wizard Hat",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 67
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Motorcycle Cop",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 68
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Fireman",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 69
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Admiral's Hat",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 70
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Indian Chief",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 71
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Turban",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 72
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Top Hat",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 73
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Top Hat",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 74
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "Space Helmet",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 75
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Space Helmet",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 76
+  }, {
+    "gender" : "Male",
+    "gene" : "Hair Style",
+    "name" : "King's Crown",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 77
+  }, {
+    "gender" : "Female",
+    "gene" : "Hair Style",
+    "name" : "Queen's Crown",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 78
+  } ],
+  "Mouth" : [ null, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Half Smile Right",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Simple Smile",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Gold Tooth Smile",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Lip Ring",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Frown",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 5
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Angry",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 6
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Simple Smile",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Half Smile Right",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Buck Teeth",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 9
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Half Frown Right",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 10
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Pursed Lips",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 11
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Toothpick",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 12
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Angry",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 13
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Frown",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 14
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Big Smile",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 15
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Sly",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 16
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Biting Lower Lip",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 17
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Fish Lips",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 18
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Half Smile Left",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 19
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Big Smile",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 20
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Half Frown Right",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 21
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Pursed Lips",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 22
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Toothpick",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 23
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Gold Tooth Smile",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 24
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Fish Lips",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 25
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Half Smile Left",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 26
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Sly",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 27
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Lip Stud",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 28
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Soul Patch",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Buck Teeth",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Referee Whistle",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 31
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Elvis",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 32
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Half Frown Left",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 33
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Stiched Shut",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 34
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Braces Smile",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 35
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Bright Smile",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 36
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Marmota x Milky",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 37
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Referee Whistle",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 38
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Elvis",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 39
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Angry Lipring",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 40
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Missing Tooth Smile",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 41
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Half Frown Left",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 42
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Busted Lip",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 43
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Kiss Kiss",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 44
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Bright Smile",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Braces Smile",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Angry Lipring",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Biting Lower Lip",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Mustache",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 49
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Zippered",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 50
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Thick Mustache",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 51
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Surprised",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 52
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Clown",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 53
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Silver Grill",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 54
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Silver Grill",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 55
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Clown",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 56
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Cyborg",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 57
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Missing Tooth Smile",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 58
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Stiched Shut",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 59
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Tongue Out",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 60
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Hipster Mustache",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 61
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Cyborg",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 62
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Fu Man Chu",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 63
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Marmota x Milky",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 64
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Spliff",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 65
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Bubblegum",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4 ],
+    "variation" : 66
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Gimp Ball",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 67
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Party Blower",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 68
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Zippered",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 69
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Spliff",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 70
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Tongue Out",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 71
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Gimp Ball",
+    "rarity" : "Epic",
+    "series" : [ 5 ],
+    "variation" : 72
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Gold Grill",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 73
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Gold Grill",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 74
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Vampire",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 75
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Vampire",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 76
+  }, {
+    "gender" : "Male",
+    "gene" : "Mouth",
+    "name" : "Taped Shut",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 77
+  }, {
+    "gender" : "Female",
+    "gene" : "Mouth",
+    "name" : "Taped Shut",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 78
+  } ],
+  "Nose" : [ null, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Straight",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 1
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Nixon",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 2
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Roman",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 3
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Greek",
+    "rarity" : "Common",
+    "series" : [ 1 ],
+    "variation" : 4
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Greek",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 5
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Fleshy",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 6
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Hawk",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 7
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Straight",
+    "rarity" : "Common",
+    "series" : [ 2 ],
+    "variation" : 8
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Marmota x Milky",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 9
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Snub",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 10
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Bumpy",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 11
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Hawk",
+    "rarity" : "Common",
+    "series" : [ 3 ],
+    "variation" : 12
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Turned Up",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 13
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Marmota x Milky",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 14
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Snub",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 15
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Roman",
+    "rarity" : "Common",
+    "series" : [ 4 ],
+    "variation" : 16
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Nixon",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 17
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Bumpy",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 18
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Fleshy",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 19
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Turned Up",
+    "rarity" : "Common",
+    "series" : [ 5 ],
+    "variation" : 20
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Greek Stud",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 21
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Bumpy Bull Ring",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 22
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Cat Nose",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 23
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Turned Up Nosering",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2 ],
+    "variation" : 24
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Nubian Nosering",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 25
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Roman Nosering",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 26
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Bumpy Bull Ring",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 27
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Nubian Nosering",
+    "rarity" : "Uncommon",
+    "series" : [ 3, 4 ],
+    "variation" : 28
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Roman Nosering",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 29
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Greek Stud",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 30
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Turned Up Nosering",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 31
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Cat Nose",
+    "rarity" : "Uncommon",
+    "series" : [ 5 ],
+    "variation" : 32
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Straight Bull Ring",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 33
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Clown Nose",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 34
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Fleshy Nose Clip",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 35
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Fleshy Nose Clip",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 36
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Broken Nose",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 37
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Hawk Mole",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 38
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Clown Nose",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 39
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Straight Bull Ring",
+    "rarity" : "Rare",
+    "series" : [ 4, 5 ],
+    "variation" : 40
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Mona Lisa",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 41
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Nubian",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 42
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Da Vinci",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 43
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Broken Nose",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3 ],
+    "variation" : 44
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Hawk Mole",
+    "rarity" : "Epic",
+    "series" : [ 4, 5 ],
+    "variation" : 45
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Da Vinci",
+    "rarity" : "Epic",
+    "series" : [ 4, 5 ],
+    "variation" : 46
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Nubian",
+    "rarity" : "Epic",
+    "series" : [ 4, 5 ],
+    "variation" : 47
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Mona Lisa",
+    "rarity" : "Epic",
+    "series" : [ 4, 5 ],
+    "variation" : 48
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Cyborg",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 49
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Cyborg",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 50
+  }, {
+    "gender" : "Female",
+    "gene" : "Nose",
+    "name" : "Roman Stud",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 51
+  }, {
+    "gender" : "Male",
+    "gene" : "Nose",
+    "name" : "Roman Stud",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 52
+  } ],
+  "Skin Tone" : [ null, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Pale Pink",
+    "rarity" : "Common",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 1
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Amber Brown",
+    "rarity" : "Common",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 2
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Tumbleweed",
+    "rarity" : "Common",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 3
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Mellow Apricot",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 4
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Mohave Sand",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 5
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Brown Sugar",
+    "rarity" : "Uncommon",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 6
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Navaho White",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 7
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Deer",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 8
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Pale Chestnut",
+    "rarity" : "Rare",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 9
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Champagne Pink",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 10
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Peach Puff",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 11
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Pastel Pink",
+    "rarity" : "Epic",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 12
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Lavender Rose",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 13
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Zombie",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 14
+  }, {
+    "gender" : "Any",
+    "gene" : "Skin Tone",
+    "name" : "Alien",
+    "rarity" : "Legendary",
+    "series" : [ 1, 2, 3, 4, 5 ],
+    "variation" : 15
+  } ]
+}

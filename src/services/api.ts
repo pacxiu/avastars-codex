@@ -28,6 +28,9 @@ export interface GetAvastarsQueryParams {
   from: string;
   size: string;
   owner?: string;
+  traitRarityCountRarity?: RarityType;
+  traitRarityCountRange: string[];
+  traitName?: string;
 }
 
 export interface GetAvastarsResponse {
@@ -41,7 +44,7 @@ export const requestAvastars = (
 ): Promise<GetAvastarsResponse> => {
   const defaultQuery = {};
   const query = getQueryParams({ ...defaultQuery, ...queryParams });
-  console.log('query for avastars:', query);
+  console.info('query for avastars:', query);
 
   return makeRequest(`${getReqBaseUrl(req)}/api/getAvastars/?${query}`);
 };

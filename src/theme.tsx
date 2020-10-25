@@ -6,7 +6,7 @@ export const TRANSITIONS = {
 
 export const CUSTOM_SIZES = {
   menuHeight: pxToRem(80),
-  filtersWidth: pxToRem(280),
+  filtersWidth: pxToRem(320),
 };
 
 // //////////////////// 0   1   2   3   4   5   6   7   8  9   10
@@ -132,6 +132,14 @@ const theme = {
   forms: {
     label: {
       cursor: 'pointer',
+    },
+    select: {
+      cursor: 'pointer',
+      py: 1,
+      border: 'normal',
+      borderColor: 'primary',
+      color: 'primary',
+      mt: 2,
     },
   },
   zIndices: {

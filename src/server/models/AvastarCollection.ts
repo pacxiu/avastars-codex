@@ -1,4 +1,4 @@
-type TraitKey =
+export type TraitKey =
   | 'skin_tone'
   | 'hair_color'
   | 'eye_color'
@@ -13,6 +13,7 @@ type TraitKey =
   | 'hair_style';
 
 export type RarityType = 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
+export type RarityTypeCapitalize = 'Common' | 'Uncommon' | 'Rare' | 'Epic' | 'Legendary';
 
 export type GenderType = 'male' | 'female';
 
@@ -20,12 +21,16 @@ export type TraitsType = {
   [key in TraitKey]: string;
 };
 
+export type TraitsRarityType = { [key in TraitKey]: RarityTypeCapitalize };
+
 export interface AvastarType {
   _id: number;
   Gender: GenderType;
   Score: number;
   traits: TraitsType;
   Owner: string;
+  RarityDistribution: { [key in RarityTypeCapitalize]: number };
+  TraitsRarity: TraitsRarityType;
 }
 
 export const getRarityFromScore = (score: number): RarityType => {

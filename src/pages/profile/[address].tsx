@@ -2,7 +2,7 @@ import { useRouter } from 'next/dist/client/router';
 import { Box, Container, Heading } from 'theme-ui';
 import { utils } from 'ethers';
 import { useEffect, useState } from 'react';
-import Avadex from 'components/Avadex';
+import Avadex from 'components/Avadex/Avadex';
 import Loader from 'components/Loader';
 
 const ProfilePage = () => {

@@ -1,25 +1,71 @@
 import { useAvastarMetadata } from 'hooks/useAvastarMetadata';
 import { formatAddress } from 'providers/Web3Provider';
-import { AvastarType, getAvastarImage, TraitsType } from 'server/models/AvastarCollection';
+import {
+  AvastarType,
+  getAvastarImage,
+  TraitsRarityType,
+  TraitsType,
+  TraitKey,
+} from 'server/models/AvastarCollection';
 import { pxToRem } from 'theme';
 import { Box, Flex, Image, Text } from 'theme-ui';
 import AppLink from './AppLink';
+import { rarityIcons } from './Icons';
 
-const Traits = ({ traits }: { traits: TraitsType }) => {
+const Traits = ({
+  traits,
+  TraitsRarity,
+}: {
+  traits: TraitsType;
+  TraitsRarity: TraitsRarityType;
+}) => {
   return (
-    <Box>
-      {Object.entries(traits).map(([key, value]) => (
-        <Text key={key}>
-          {key} - {value}
-        </Text>
-      ))}
+    <Box sx={{ bg: 'primaryAlt' }}>
+      {Object.entries(traits).map(([key, value]) => {
+        const traitRarity = TraitsRarity[key as TraitKey];
+        // @ts-ignore
+        const Icon = rarityIcons[traitRarity.toLowerCase()];
+
+        return (
+          <Flex
+            key={key}
+            sx={{
+              justifyContent: 'space-between',
+              p: pxToRem(12),
+              px: 2,
+              borderBottom: 'normal',
+              borderColor: 'primaryEmphasis',
+              fontWeight: 'semiBold',
+              textTransform: 'uppercase',
+              fontSize: 3,
+            }}
+          >
+            <Flex>
+              <Box sx={{ width: pxToRem(20), mr: 2 }}>
+                <Icon />
+              </Box>
+              <Text sx={{ minWidth: '8em' }}>{key.split('_').join(' ')}</Text>
+              <Text mx={2}>|</Text>
+              <Text sx={{ color: `rarity.${traitRarity.toLowerCase()}` }}>{value}</Text>
+            </Flex>
+            <Text
+              sx={{
+                pl: [2, 3, 5],
+                color: `rarity.${traitRarity.toLowerCase()}`,
+              }}
+            >
+              {traitRarity}
+            </Text>
+          </Flex>
+        );
+      })}
     </Box>
   );
 };
 
 const AvastarDetailedView = ({
   avastar,
-  avastar: { _id, Gender, Score, traits, Owner },
+  avastar: { _id, Gender, Score, traits, Owner, TraitsRarity },
 }: {
   avastar: AvastarType;
 }) => {
@@ -84,7 +130,7 @@ const AvastarDetailedView = ({
             </AppLink>
           </Flex>
         </Box>
-        <Box sx={{ p: 4, pl: pxToRem(40) }}>
+        <Box sx={{ p: 4, pl: pxToRem(40), flex: 1 }}>
           <Flex
             variant="text.avastarViewLabel"
             sx={{ alignItems: 'center', justifyContent: 'space-between' }}
@@ -92,7 +138,7 @@ const AvastarDetailedView = ({
             <Text>Traits</Text>
             <Text sx={{ fontSize: 6, color: `rarity.${rarity}` }}>Score: {Score}</Text>
           </Flex>
-          <Traits {...{ traits }} />
+          <Traits {...{ traits, TraitsRarity }} />
         </Box>
       </Flex>
     </Box>

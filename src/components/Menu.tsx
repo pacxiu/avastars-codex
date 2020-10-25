@@ -99,11 +99,11 @@ const Menu = () => {
           >
             <Box color="primary">
               <AppLink href="/avadex" sx={{ mr: 4 }}>
-                Avadex
+                AvaDex
               </AppLink>
-              <AppLink href="/avastar/[id]" as={`/avastar/${getRandomAvatarId()}`}>
+              {/* <AppLink href="/avastar/[id]" as={`/avastar/${getRandomAvatarId()}`}>
                 Random avastar
-              </AppLink>
+              </AppLink> */}
             </Box>
             <Flex sx={{ alignItems: 'center' }}>
               <ColorMode />

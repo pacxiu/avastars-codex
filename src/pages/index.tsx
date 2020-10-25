@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Container>
       <Box sx={{ textAlign: 'center' }} mt={5}>
-        <Heading as="h1">Avastars Codex</Heading>
+        <Heading as="h1">AvaDex</Heading>
         <Text sx={{ maxWidth: '50em', mx: 'auto', mt: 3 }}>
           Avastars is the ultimate digital collectibles project for an increasingly booming
           metaverse. Generative, addictive, and open to being used in unprecedented ways, Avastars
@@ -20,7 +20,7 @@ export default function Home() {
           <Box as="li">investigate ethereum address on dedicated page</Box>
         </Box>
         <AppLink href="/avadex" sx={{ mt: 4, display: 'block' }}>
-          <Button>See Avadex</Button>
+          <Button>See AvaDex</Button>
         </AppLink>
         <Box sx={{ fontSize: 3, mt: 6 }}>
           <Text sx={{}}>

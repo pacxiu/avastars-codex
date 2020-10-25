@@ -23,15 +23,10 @@ const AvastarPage = () => {
   }, [query.id]);
 
   return (
-    <Container mt={avastar === undefined ? 6 : 5}>
+    <Container mt={avastar === undefined ? 6 : 4}>
       {avastar !== undefined ? (
         avastar ? (
-          <>
-            <Box sx={{ textAlign: 'center', mb: 5 }}>
-              <Heading>Avastar #{query.id}</Heading>
-            </Box>
-            <AvastarDetailedView {...{ avastar }} />
-          </>
+          <AvastarDetailedView {...{ avastar }} />
         ) : (
           <Text sx={{ textAlign: 'center' }}>Couldn`t find data for avastar {query.id}</Text>
         )
