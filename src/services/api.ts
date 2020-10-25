@@ -30,7 +30,7 @@ export interface GetAvastarsQueryParams {
   owner?: string;
   traitRarityCountRarity?: RarityType;
   traitRarityCountRange: string[];
-  traitName?: string;
+  traits?: string | string[];
 }
 
 export interface GetAvastarsResponse {

@@ -6,6 +6,7 @@ import {
   AvastarType,
   getIdRangeFromSeries,
   getScoreRangeFromRarity,
+  TraitKey,
 } from 'server/models/AvastarCollection';
 import { GetAvastarsQueryParams, GetAvastarsResponse } from 'services/api';
 import { WithDb } from 'types';
@@ -22,17 +23,45 @@ const getTraitRarityCount = (range: string[]) => {
     : undefined;
 };
 
+const getTraitsQuery = (traits: string[]) => {
+  const traitsObject = {} as { [key in TraitKey]: string[] };
+
+  traits.forEach((trait) => {
+    const traitQuery = trait.split('-');
+    const key = traitQuery[0] as TraitKey;
+
+    // can have multiple parts for same key
+    if (traitsObject[key]) {
+      traitsObject[key].push(traitQuery[1]);
+    } else {
+      traitsObject[key] = [traitQuery[1]];
+    }
+  });
+
+  const traitsQuery = {};
+
+  Object.entries(traitsObject).forEach(([key, value]) => {
+    // convert to mongodb query
+    // @ts-ignore
+    traitsQuery[`traits.${key}`] = { $in: value };
+  });
+
+  return traitsQuery;
+};
+
 const getMatchQuery = (query: GetAvastarsQueryParams): FilterQuery<AvastarType> => {
   const {
     gender,
     rarity,
     series,
     owner,
-    traitName,
+    traits,
     traitRarityCountRarity,
     traitRarityCountRange,
   } = query;
-  const traitQuery = traitName ? traitName.split('-') : undefined;
+  const traitQuery = traits
+    ? getTraitsQuery(typeof traits === 'string' ? [traits] : traits)
+    : undefined;
   const scoreRange = getScoreRangeFromRarity(rarity);
   const idRange = getIdRangeFromSeries(series);
   const traitRarityCount = traitRarityCountRarity
@@ -42,7 +71,7 @@ const getMatchQuery = (query: GetAvastarsQueryParams): FilterQuery<AvastarType> 
   return {
     ...(gender && { Gender: gender }),
     ...(owner && { Owner: owner }),
-    ...(traitQuery && { [`traits.${traitQuery[0]}`]: traitQuery[1] }),
+    ...(traitQuery && traitQuery),
     ...(traitRarityCount && {
       [`RarityDistribution.${capitalizeString(traitRarityCountRarity as string)}`]: {
         $gte: traitRarityCount.min,

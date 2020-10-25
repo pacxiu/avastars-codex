@@ -7,12 +7,12 @@ import RangeSlider from './RangeSlider';
 import { GetAvastarsQueryParams } from 'services/api';
 import Select from './Select';
 
-type TraitNameOption = { value: string | undefined; label: string };
+type TraitNameOption = { value: string; label: string };
 
 const transformGene = (gene: string) => gene.toLowerCase().split(' ').join('_');
 
 const getTraitNamesFromRaw = () => {
-  const traitNames: TraitNameOption[] = [{ value: undefined, label: 'Any' }];
+  const traitNames: TraitNameOption[] = [];
 
   Object.values(TraitsRaw).forEach((value) => {
     value.forEach((trait) => {
@@ -53,13 +53,13 @@ const SERIES_OPTIONS: { value: string | undefined; label: string }[] = [
 
 export type FiltersType = Omit<
   GetAvastarsQueryParams,
-  'from' | 'size' | 'traitRarityCountRange' | 'traitRarityCountRarity' | 'traitName'
+  'from' | 'size' | 'traitRarityCountRange' | 'traitRarityCountRarity' | 'traits'
 > & {
   from: number;
   size: number;
   traitRarityCountRarity: RarityOption;
   traitRarityCountRange: number[];
-  traitName: TraitNameOption;
+  traits?: TraitNameOption[];
 };
 
 const FilterTitle = ({ children }: { children: ReactNode }) => (
@@ -81,7 +81,7 @@ const FilterContainer = ({ children }: { children: ReactNode }) => (
 );
 
 const Filters = ({
-  filters: { gender, rarity, series, traitRarityCountRarity, traitRarityCountRange, traitName },
+  filters: { gender, rarity, series, traitRarityCountRarity, traitRarityCountRange, traits },
   updateFilters,
 }: {
   filters: FiltersType;
@@ -177,9 +177,10 @@ const Filters = ({
       <FilterContainer>
         <FilterTitle>Trait</FilterTitle>
         <Select
+          isMulti
           options={TRAIT_NAME_OPTIONS}
-          value={traitName}
-          onChange={(value) => updateFilters({ traitName: value as TraitNameOption })}
+          value={traits}
+          onChange={(value) => updateFilters({ traits: value as TraitNameOption[] })}
         />
       </FilterContainer>
     </Box>

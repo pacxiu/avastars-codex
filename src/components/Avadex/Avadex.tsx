@@ -69,7 +69,7 @@ const Avadex = ({ owner }: { owner?: string }) => {
     size: BATCH_SIZE,
     traitRarityCountRarity: RARITY_OPTIONS[0],
     traitRarityCountRange: [0, 12],
-    traitName: TRAIT_NAME_OPTIONS[0],
+    traits: undefined,
   });
   const [pagination, setPagination] = useState({ current: 1, total: 1 });
   const debouncedFilters = useDebounce(filters, 800);
@@ -84,7 +84,11 @@ const Avadex = ({ owner }: { owner?: string }) => {
         owner,
         traitRarityCountRarity: filters.traitRarityCountRarity.value,
         traitRarityCountRange: filters.traitRarityCountRange.map((el) => el.toString()),
-        traitName: filters.traitName.value,
+        traits: filters.traits
+          ? filters.traits
+              .filter((trait) => trait.value !== undefined)
+              .map((trait) => trait.value as string)
+          : undefined,
       });
 
       setAvastars(data);
@@ -114,7 +118,7 @@ const Avadex = ({ owner }: { owner?: string }) => {
   return (
     <Box>
       <Filters {...{ filters, updateFilters }} />
-      {/* <Box sx={{ ml: CUSTOM_SIZES.filtersWidth }}>
+      <Box sx={{ ml: CUSTOM_SIZES.filtersWidth }}>
         <Container sx={{ maxWidth: '100%' }}>
           <Box sx={{ textAlign: 'center', my: 3 }}>
             <Heading>{owner ? `Profile for ${formatAddress(owner)}` : 'AvaDex'}</Heading>
@@ -138,7 +142,7 @@ const Avadex = ({ owner }: { owner?: string }) => {
             <Text>Couldn`t find any avastars matching given criteria.</Text>
           )}
         </Container>
-      </Box> */}
+      </Box>
       <Modal onClose={() => setAvastarModal(undefined)} isOpen={avastarModal !== undefined}>
         {avastarModal && (
           <Box my={4}>
