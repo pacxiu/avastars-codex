@@ -19,7 +19,9 @@ const AppLink = ({ href, as, children, ...rest }: AppLinkProps) => {
       <ThemeLink {...rest}>{children}</ThemeLink>
     </Link>
   ) : (
-    <a {...{ href, target: '_blank', rel: 'noopener noreferrer' }}>{children}</a>
+    <ThemeLink {...{ href, target: '_blank', rel: 'noopener noreferrer', ...rest }}>
+      {children}
+    </ThemeLink>
   );
 };
 

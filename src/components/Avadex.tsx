@@ -3,6 +3,7 @@ import AvastarDetailedView from 'components/AvastarDetailedView';
 import Loader from 'components/Loader';
 import Modal from 'components/Modal';
 import { useDebounce } from 'hooks/useDebounce';
+import { formatAddress } from 'providers/Web3Provider';
 import { useEffect, useState } from 'react';
 import { AvastarType, GenderType, RarityType } from 'server/models/AvastarCollection';
 import { GetAvastarsQueryParams, requestAvastars } from 'services/api';
@@ -192,7 +193,7 @@ const Avadex = ({ owner }: { owner?: string }) => {
       <Box sx={{ ml: CUSTOM_SIZES.filtersWidth }}>
         <Container sx={{ maxWidth: '100%' }}>
           <Box sx={{ textAlign: 'center', my: 3 }}>
-            <Heading>Avadex</Heading>
+            <Heading>{owner ? `Profile for ${formatAddress(owner)}` : 'Avadex'}</Heading>
             <Text>Explore avastars with given criteria</Text>
           </Box>
           {avastars === undefined ? (

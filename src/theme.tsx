@@ -24,7 +24,6 @@ const theme = {
   colors: {
     text: 'rgb(69, 67, 74)',
     background: 'rgb(247, 248, 252)',
-    backgroundAlt: 'rgb(247, 248, 252)',
     primary: 'rgb(91, 25, 229)',
     primaryAlt: 'rgb(242, 239, 255)',
     primaryEmphasis: 'rgb(223, 217, 250)',
@@ -36,6 +35,16 @@ const theme = {
       legendary: 'rgb(255, 69, 96)',
     },
     surface: '#FFF',
+    modes: {
+      dark: {
+        text: 'rgb(170, 168, 173)',
+        background: 'rgb(21, 4, 55)',
+        primary: 'rgb(13, 143, 251)',
+        primaryAlt: 'rgb(32, 4, 78)',
+        primaryEmphasis: 'rgb(58, 11, 144)',
+        surface: 'rgb(21, 4, 55)',
+      },
+    },
   },
   fonts: {
     body: 'Inconsolata, monospace',

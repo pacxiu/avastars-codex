@@ -1,8 +1,62 @@
 import { formatAddress, useWeb3 } from 'providers/Web3Provider';
 import { CUSTOM_SIZES, pxToRem } from 'theme';
-import { Box, Button, Container, Flex, Text } from 'theme-ui';
+import { Box, Button, Container, Flex, useThemeUI } from 'theme-ui';
 import AppLink from './AppLink';
-import { AvastarIcon } from './Icons';
+import { AvastarIcon, DarkMode, DefaultMode } from './Icons';
+
+const ColorMode = () => {
+  const { colorMode, setColorMode } = useThemeUI();
+
+  return (
+    <Flex
+      onClick={() => setColorMode(colorMode === 'default' ? 'dark' : 'default')}
+      sx={{
+        border: 'normal',
+        borderColor: 'primary',
+        borderRadius: '1em',
+        cursor: 'pointer',
+        mr: 2,
+      }}
+    >
+      <Box
+        sx={{
+          width: pxToRem(18),
+          boxSizing: 'content-box',
+          fontSize: '0px',
+          borderTopLeftRadius: pxToRem(7),
+          borderBottomLeftRadius: pxToRem(7),
+          padding: `${pxToRem(2)} ${pxToRem(4)}`,
+          ...(colorMode === 'dark' && {
+            bg: 'primary',
+            color: 'background',
+          }),
+          '> svg': {
+            position: 'relative',
+            top: '1px',
+          },
+        }}
+      >
+        <DarkMode />
+      </Box>
+      <Box
+        sx={{
+          width: pxToRem(20),
+          boxSizing: 'content-box',
+          fontSize: '0px',
+          borderTopRightRadius: pxToRem(7),
+          borderBottomRightRadius: pxToRem(7),
+          padding: `${pxToRem(2)} ${pxToRem(4)}`,
+          ...(colorMode === 'default' && {
+            bg: 'primary',
+            color: 'background',
+          }),
+        }}
+      >
+        <DefaultMode />
+      </Box>
+    </Flex>
+  );
+};
 
 const Menu = () => {
   const { address, initWeb3 } = useWeb3();
@@ -43,7 +97,7 @@ const Menu = () => {
               flex: 1,
             }}
           >
-            <Box>
+            <Box color="primary">
               <AppLink href="/avadex" sx={{ mr: 4 }}>
                 Avadex
               </AppLink>
@@ -51,17 +105,20 @@ const Menu = () => {
                 Random avastar
               </AppLink>
             </Box>
-            {address ? (
-              <AppLink href="/profile/[address]" as={`/profile/${address}`}>
-                <Button sx={{ fontSize: 3, ml: 3, minWidth: '10.5em' }}>
-                  {formatAddress(address)}
+            <Flex sx={{ alignItems: 'center' }}>
+              <ColorMode />
+              {address ? (
+                <AppLink href="/profile/[address]" as={`/profile/${address}`}>
+                  <Button sx={{ fontSize: 3, ml: 3, minWidth: '10.5em' }}>
+                    {formatAddress(address)}
+                  </Button>
+                </AppLink>
+              ) : (
+                <Button onClick={initWeb3} sx={{ fontSize: 3, ml: 3, minWidth: '10.5em' }}>
+                  Connect Wallet
                 </Button>
-              </AppLink>
-            ) : (
-              <Button onClick={initWeb3} sx={{ fontSize: 3, ml: 3, minWidth: '10.5em' }}>
-                Connect Wallet
-              </Button>
-            )}
+              )}
+            </Flex>
           </Flex>
         </Flex>
       </Container>
