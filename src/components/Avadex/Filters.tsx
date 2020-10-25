@@ -17,7 +17,10 @@ const getTraitNamesFromRaw = () => {
   Object.values(TraitsRaw).forEach((value) => {
     value.forEach((trait) => {
       if (trait && trait.name) {
-        traitNames.push({ value: `${transformGene(trait.gene)}-${trait.name}`, label: trait.name });
+        traitNames.push({
+          value: `${transformGene(trait.gene)}-${trait.name}`,
+          label: `${trait.name} - ${trait.gene} - ${trait.gender}`,
+        });
       }
     });
   });
@@ -158,7 +161,7 @@ const Filters = ({
             updateFilters({ traitRarityCountRarity: value as RarityOption });
           }}
         />
-        {traitRarityCountRarity.value === undefined && (
+        {traitRarityCountRarity.value !== undefined && (
           <Box sx={{ mt: 3 }}>
             <RangeSlider
               min={0}

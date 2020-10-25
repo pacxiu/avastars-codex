@@ -70,7 +70,7 @@ const getMatchQuery = (query: GetAvastarsQueryParams): FilterQuery<AvastarType> 
 
   return {
     ...(gender && { Gender: gender }),
-    ...(owner && { Owner: owner }),
+    ...(owner && { Owner: owner.toLowerCase() }),
     ...(traitQuery && traitQuery),
     ...(traitRarityCount && {
       [`RarityDistribution.${capitalizeString(traitRarityCountRarity as string)}`]: {

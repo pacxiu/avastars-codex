@@ -110,7 +110,7 @@ const Menu = () => {
               {address ? (
                 <AppLink href="/profile/[address]" as={`/profile/${address}`}>
                   <Button sx={{ fontSize: 3, ml: 3, minWidth: '10.5em' }}>
-                    {formatAddress(address)}
+                    See profile {formatAddress(address)}
                   </Button>
                 </AppLink>
               ) : (
