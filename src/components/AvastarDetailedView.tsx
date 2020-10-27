@@ -1,5 +1,6 @@
 import { useAvastarMetadata } from 'hooks/useAvastarMetadata';
 import { formatAddress } from 'providers/Web3Provider';
+import { useEffect, useState } from 'react';
 import {
   AvastarType,
   getAvastarImage,
@@ -7,8 +8,9 @@ import {
   TraitsType,
   TraitKey,
 } from 'server/models/AvastarCollection';
+import { requestAvastarUb } from 'services/api';
 import { pxToRem } from 'theme';
-import { Box, Flex, Image, Text } from 'theme-ui';
+import { Box, Button, Flex, Image, Text } from 'theme-ui';
 import AppLink from './AppLink';
 import { rarityIcons } from './Icons';
 
@@ -70,6 +72,22 @@ const AvastarDetailedView = ({
   avastar: AvastarType;
 }) => {
   const { rarity, series, Icon } = useAvastarMetadata(avastar);
+  const [ubCount, setUbCount] = useState<{ 2: number; 3: number } | undefined>(undefined);
+
+  useEffect(() => {
+    const fetchUb = async () => {
+      const { data } = await requestAvastarUb({ id: _id.toString() });
+
+      if (data) {
+        setUbCount({
+          2: data.ub2List.length,
+          3: data.ub3List.length,
+        });
+      }
+    };
+
+    fetchUb();
+  }, []);
 
   return (
     <Box
@@ -103,22 +121,40 @@ const AvastarDetailedView = ({
           <Box sx={{ width: pxToRem(400), mx: 'auto' }}>
             <Image src={getAvastarImage(_id)} sx={{ height: pxToRem(400) }} />
           </Box>
-          <Flex sx={{ alignItems: 'center' }}>
-            <Box sx={{ width: pxToRem(35) }}>
-              {/* @ts-ignore */}
-              <Icon />
-            </Box>
-            <Text
-              sx={{
-                color: `rarity.${rarity}`,
-                fontWeight: 'semiBold',
-                textTransform: 'uppercase',
-                fontSize: 6,
-                ml: 3,
-              }}
-            >
-              {rarity}
-            </Text>
+          <Flex sx={{ alignItems: 'center', justifyContent: 'space-between', my: 2 }}>
+            <Flex sx={{ alignItems: 'center' }}>
+              <Box sx={{ width: pxToRem(35) }}>
+                {/* @ts-ignore */}
+                <Icon />
+              </Box>
+              <Text
+                sx={{
+                  color: `rarity.${rarity}`,
+                  fontWeight: 'semiBold',
+                  textTransform: 'uppercase',
+                  fontSize: 6,
+                  ml: 3,
+                }}
+              >
+                {rarity}
+              </Text>
+            </Flex>
+            {ubCount && (
+              <Flex ml={2}>
+                <Text>
+                  UB2:
+                  <Box as="span" sx={{ fontWeight: 'bold' }}>
+                    {ubCount['2']}
+                  </Box>
+                </Text>
+                <Text ml={3}>
+                  UB3:
+                  <Box as="span" sx={{ fontWeight: 'bold' }}>
+                    {ubCount['3']}
+                  </Box>
+                </Text>
+              </Flex>
+            )}
           </Flex>
           <Flex
             variant="text.avastarViewLabel"
@@ -129,6 +165,17 @@ const AvastarDetailedView = ({
               {formatAddress(Owner)}
             </AppLink>
           </Flex>
+          <AppLink
+            href={`https://opensea.io/assets/0xf3e778f839934fc819cfa1040aabacecba01e049/${_id}/`}
+            sx={{ mt: 4, display: 'block' }}
+          >
+            <Button variant="opensea">
+              <Flex sx={{ alignItems: 'center ' }}>
+                <Text mr={2}>See on</Text>
+                <Image src="/static/opensea-logo.png" sx={{ maxWidth: pxToRem(30) }} />
+              </Flex>
+            </Button>
+          </AppLink>
         </Box>
         <Box sx={{ p: 4, pl: pxToRem(40), flex: 1 }}>
           <Flex

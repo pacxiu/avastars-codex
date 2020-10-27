@@ -27,6 +27,7 @@ const theme = {
     primary: 'rgb(91, 25, 229)',
     primaryAlt: 'rgb(242, 239, 255)',
     primaryEmphasis: 'rgb(223, 217, 250)',
+    opensea: 'rgb(13, 143, 251)',
     rarity: {
       common: 'rgb(0, 143, 251)',
       uncommon: 'rgb(0, 227, 150)',
@@ -98,6 +99,16 @@ const theme = {
       variant: 'buttons.primary',
       fontSize: 7,
       p: '0.1em 0.7em 0.08em',
+    },
+    opensea: {
+      variant: 'buttons.primary',
+      bg: 'opensea',
+      borderColor: 'opensea',
+      p: '0.35em 1em',
+      '&:hover': {
+        color: 'opensea',
+        bg: 'surface',
+      },
     },
   },
   text: {

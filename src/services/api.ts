@@ -2,6 +2,7 @@ import { makeRequest } from 'services/http';
 import { NextApiRequest } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import { AvastarType, GenderType, RarityType } from 'server/models/AvastarCollection';
+import { AvastarUbType } from 'server/models/AvastarUbCollection';
 
 const getQueryParams = (queryParams: ParsedUrlQuery) => {
   let query = '';
@@ -65,4 +66,22 @@ export const requestAvastar = (
   const query = getQueryParams({ ...defaultQuery, ...queryParams });
 
   return makeRequest(`${getReqBaseUrl(req)}/api/getAvastar/?${query}`);
+};
+
+export interface GetAvastarUbQueryParams {
+  id: string;
+}
+
+export interface GetAvastarUbResponse {
+  data: AvastarUbType | null;
+}
+
+export const requestAvastarUb = (
+  queryParams?: GetAvastarUbQueryParams,
+  req?: NextApiRequest
+): Promise<GetAvastarUbResponse> => {
+  const defaultQuery = {};
+  const query = getQueryParams({ ...defaultQuery, ...queryParams });
+
+  return makeRequest(`${getReqBaseUrl(req)}/api/getAvastarUb/?${query}`);
 };

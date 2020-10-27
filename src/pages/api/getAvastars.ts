@@ -94,10 +94,11 @@ const getMatchQuery = (query: GetAvastarsQueryParams): FilterQuery<AvastarType> 
 };
 
 const handler = async (req: NextApiRequest & WithDb, res: NextApiResponse) => {
-  const avastars: Collection<AvastarType> = req.db.collection('AvastarCollection');
   const query = (req.query as unknown) as GetAvastarsQueryParams;
   const matchQuery = getMatchQuery(query);
   console.info('query', matchQuery, query.size, query.from);
+
+  const avastars: Collection<AvastarType> = req.db.collection('AvastarCollection');
   const cursor = await avastars
     .find(matchQuery)
     .skip(+query.from || 0)
