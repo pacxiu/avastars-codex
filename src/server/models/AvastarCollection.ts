@@ -77,15 +77,19 @@ export const getIdRangeFromSeries = (series: string | undefined): number[] | und
       return [5200, 10199];
     case '3':
       return [10200, 15199];
+    case '4':
+      return [15200, 20199];
+    case '5':
+      return [20200, 25199];
     default:
       return undefined;
   }
 };
 
-// 0-199 Series 1
-// 200-5199 Series 2
-// 5200-10199 Series 3
-// 10200-15199 Series 4
+// 0-199 Series 0
+// 200-5199 Series 1
+// 5200-10199 Series 2
+// 10200-15199 Series 3
 export const getSeriesFromId = (id: number): number => Math.floor((id - 200) / 5000) + 1;
 
 export const getAvastarImage = (id: number) => `https://avastars.io/media/${id}`;
